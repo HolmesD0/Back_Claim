@@ -15,7 +15,7 @@ app.use("/posts", postRoutes);
 app.use("/user", userRouter);
 
 const CONNECTION_URL =
-  "mongodb+srv://sanAouahmane99:maykal123@cluster0.iwoqn.mongodb.net/myFirstDatabase";
+  "mongodb://0.0.0.0:27017/myFirstDatabase";
 const PORT = process.env.PORT || 5000;
 
 mongoose
